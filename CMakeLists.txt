@@ -43,9 +43,3 @@ target_include_directories(
 	PUBLIC
 		"${CMAKE_CURRENT_LIST_DIR}/src/"
 )
-
-
-# Build unit cases
-enable_testing()
-add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/test")
-
